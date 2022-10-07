@@ -1,0 +1,27 @@
+@import "../scss/variables";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+.fab {
+    font-size: 1.3rem;
+    color: blue;
+}
+
+#carousel-container {
+    max-width: 700px;
+    
+}
+
+.carousel-caption {
+    background-color: rgba($color: #FFFFFF, $alpha: 0.4);
+}
+
+// #card {
+//     @include md {
+//         width: 10rem;
+//     }
+// }
