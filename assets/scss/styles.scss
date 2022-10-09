@@ -2,20 +2,14 @@
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+@import "./settings";
+
 * {
     box-sizing: border-box;
 }
 
 .fab {
-    font-size: 1.3rem;
-    color: blue;
-}
-
-#carousel-container {
-    @include md {
-        
-    }
-    
+    @include social-icons
 }
 
 .carousel-caption {
