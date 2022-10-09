@@ -12,7 +12,9 @@
 }
 
 #carousel-container {
-    max-width: 700px;
+    @include md {
+        
+    }
     
 }
 
@@ -20,8 +22,20 @@
     background-color: rgba($color: #FFFFFF, $alpha: 0.4);
 }
 
-// #card {
-//     @include md {
-//         width: 10rem;
-//     }
-// }
+.card {
+    @include xs {
+        width: 18rem;
+    }
+    @include sm {
+        width: 18rem;
+    }
+    @include md {
+        width: 13rem;
+    }
+    @include lg {
+        width: 16rem;
+    }
+    @include xl {
+        width: 18rem;
+    }
+}
