@@ -12,6 +12,19 @@
     @include social-icons
 }
 
+.form-check {
+    width: 180px;
+    margin-top: 8px;
+    .form-check-input {
+        margin-left: -30px;
+    }
+    .form-check-label {
+        margin-left: 8px;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+}
+
 .carousel-caption {
     background-color: rgba($color: #FFFFFF, $alpha: 0.4);
 }
@@ -33,3 +46,17 @@
         width: 18rem;
     }
 }
+
+.dark-mode-bgred {
+    background-color: red !important;
+}
+
+.dark-mode-colblack {
+    color: black !important;
+}
+
+.dark-mode {
+    background-color: $darktheme;
+}
+
+
